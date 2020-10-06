@@ -1,19 +1,22 @@
-def cacabuya(l):
-  o=""
-  i=len(l)-1
+def caca (s):
+  cacabuya=""
+  i=len(s)-1
   while i>=0:
-    o+=l[i]
+    cacabuya+=s[i]
     i-=1
-  u=""
-  for c in o:
-    if c=="A":
-      u+="T"
-    elif c=="C":
-      u+="G"
-    elif c=="G":
-      u+="C"
-    elif c=="T":
-      u+="A"
-  return u
-
-print cacabuya("ATTGTGCTATCCCTCGACCTTATCAAAGCTTGCTA")
+  return cacabuya
+def uwu (b):
+  owo=""
+  for letter in b:
+    if letter=="A":
+      owo+="T"
+    elif letter=="C":
+      owo+="G"
+    elif letter=="G":
+      owo+="C"
+    elif letter=="T":
+      owo+="A"
+  return owo
+def result (Gerard):
+  return uwu (caca (Gerard))
+print result ("ATTGTGCTATCCCTCGACCTTATCAAAGCTTGCTA")
