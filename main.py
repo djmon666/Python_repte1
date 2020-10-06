@@ -1,15 +1,12 @@
-def reverse(phrase):
-  i=""
-  i = i.join(list(map(lambda x: x[::-1], phrase.split())))
-  k=""
-  for si in i:
-    if si=="A":
-      k=k+"T"
-    elif si=="C":
-      k=k+"G"
-    elif si=="G":
-      k=k+"C"
+DNA="ATTGTGCTATCCCTCGACCTTATCAAAGCTTGCTA"
+def comDNA(DNA):
+  D=""
+  p=len(DNA)-1
+  while p >=0:
+    if DNA[p] == "A":
+      D=D+"T"
     else:
-      k=k+"A"
-  return k
-print reverse("ATTGTGCTATCCCTCGACCTTATCAAAGCTTGCTA")
+      D=D+DNA[p] 
+    p-=1 
+  return D
+print comDNA(DNA)
