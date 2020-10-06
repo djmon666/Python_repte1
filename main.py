@@ -12,3 +12,4 @@ def reverse(phrase):
     else:
       k=k+"A"
   return k
+print(reverse("ATTGTGCTATCCCTCGACCTTATCAAAGCTTGCTA"))
