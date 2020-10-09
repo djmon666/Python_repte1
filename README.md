@@ -1,3 +1,1 @@
-# Python_repte1
-Codi Repte Python1
-Exercici proposat als alumnes de Codelearn Banyoles, en que s'ha d'utilitzar una funció de Python per buscar el complementari a un fragment de cadena de ADN.
+[![Run on Repl.it](https://repl.it/badge/github/djmon666/Python_repte1)](https://repl.it/github/djmon666/Python_repte1)
