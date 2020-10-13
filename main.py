@@ -5,8 +5,12 @@ def comDNA(DNA):
   while p >=0:
     if DNA[p] == "A":
       D=D+"T"
-    else:
-      D=D+DNA[p] 
+    elif DNA[p] == "T":
+      D=D+"A"
+    elif DNA[p] == "C":
+      D=D+"G" 
+    elif DNA[p] == "G":
+      D=D+"C"    
     p-=1 
   return D
 print comDNA(DNA)
